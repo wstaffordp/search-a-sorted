@@ -2,8 +2,6 @@
 
 A fast, non-interpolated sorted-list searching algorithm.
 
-## Reference
-
 `search_a_sorted_ascending()` and `search_a_sorted_descending()` are the searching functions that search for an element in a list of elements that are already sorted in either ascending or descending order.
 
 They accept the following 5 arguments in left-to-right order.
@@ -18,11 +16,7 @@ When the return value is `1`, `position` contains the index of the found `needle
 
 When the return value is `0`, a new index value isn't assigned to `position`.
 
-## Classification
-
 It's in the same class as Binary Search, Exponential Search, Fibonnaci Search and `bsearch()`.
-
-## Speed
 
 Search A Sorted is close to a lossless optimization with faster speed than Binary Search, Exponential Search and Fibonacci Search in all distributed instances that were tested.
 
@@ -31,8 +25,6 @@ It doesn't rely on evenly-distributed `haystack` values for heuristic, input-bas
 It's the fastest sorted-list search algorithm compared to sorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
 
 I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
-
-## Security
 
 `bsearch()` doesn't guarantee the use of Binary Search and has neither space nor time complexity guarantees.
 
