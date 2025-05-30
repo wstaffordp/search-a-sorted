@@ -1,6 +1,6 @@
 # Search A Sorted
 
-A fast, non-interpolated sorted-list searching algorithm.
+It's a fast, non-interpolated sorted-list searching algorithm.
 
 `search_a_sorted_ascending()` and `search_a_sorted_descending()` are the searching functions that search for an element in a list of elements that are already sorted in either ascending or descending order.
 
