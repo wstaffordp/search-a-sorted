@@ -22,7 +22,7 @@ Search A Sorted is close to a lossless optimization with faster speed than Binar
 
 It doesn't rely on evenly-distributed `haystack` values for heuristic, input-based calculations and it's substantially-faster than the worst instances of Interpolation Search.
 
-It's the fastest sorted-list search algorithm compared to sorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
+It's the fastest sorted-list searching algorithm compared to sorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
 
 I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
 
