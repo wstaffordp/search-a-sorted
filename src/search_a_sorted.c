@@ -1,9 +1,8 @@
 #include "search_a_sorted.h"
 
-unsigned char search_a_sorted_ascending(uintptr_t low, uintptr_t high,
-                                        int *haystack, int needle,
-                                        uintptr_t *position) {
-  uintptr_t gap;
+unsigned char search_a_sorted_ascending(size_t low, size_t high, int *haystack,
+                                        int needle, size_t *position) {
+  size_t gap;
 
   if (haystack[low] < needle) {
     if (haystack[high] < needle) {
@@ -56,10 +55,9 @@ unsigned char search_a_sorted_ascending(uintptr_t low, uintptr_t high,
   return 0;
 }
 
-unsigned char search_a_sorted_descending(uintptr_t low, uintptr_t high,
-                                         int *haystack, int needle,
-                                         uintptr_t *position) {
-  uintptr_t gap;
+unsigned char search_a_sorted_descending(size_t low, size_t high, int *haystack,
+                                         int needle, size_t *position) {
+  size_t gap;
 
   if (haystack[low] > needle) {
     if (haystack[high] > needle) {
